@@ -1,0 +1,8 @@
+.landing-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 8rem;
+  margin-top: 1rem;
+  z-index: 2;
+  position: relative;
+}

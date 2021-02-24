@@ -1,0 +1,210 @@
+.home__paragraph {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 1.9rem;
+  padding-bottom: 15px;
+}
+.home__paragraph--gray {
+  color: #333;
+}
+.home__paragraph p {
+  line-height: 2.2rem;
+}
+.home__heading {
+  padding: 0;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: #fff;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.home__heading--gray {
+  color: #555;
+}
+.home__heading sv-svg {
+  font-size: initial;
+  line-height: initial;
+}
+.home__heading svg {
+  fill: #555 !important;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+.home__cta {
+  height: 26rem;
+  position: relative;
+}
+.home__cta-button {
+  width: 185px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.home__how-it-works {
+  padding: 45px 0;
+  background: #fff;
+  height: 45rem;
+  border-top: 1px solid rgba(50, 50, 50, 0.1);
+  border-bottom: 1px solid rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0 0 1px 1px rgba(50, 50, 50, 0.1);
+  box-shadow: 0 0 1px 1px rgba(50, 50, 50, 0.1);
+  z-index: 2;
+  position: relative;
+}
+.home__mobile-cta {
+  background-color: #f9f9f9;
+  padding: 45px 0;
+  height: 45rem;
+}
+.home__footer {
+  height: 6rem;
+  font-size: 1.5rem;
+  border-top: 1px solid #f1f1f1;
+}
+.home__footer > a {
+  color: #333;
+}
+.home__products {
+  position: relative;
+  background: #f7f7f7;
+  height: 50rem;
+  margin-top: -2rem;
+  -webkit-box-shadow: 0 1px 5px 1px rgba(50, 50, 50, 0.15);
+  box-shadow: 0 1px 5px 1px rgba(50, 50, 50, 0.15);
+  z-index: 1;
+}
+.home__products > div {
+  margin-top: 7.5rem;
+}
+.home__search {
+  margin-top: -6.8rem;
+  z-index: 2;
+}
+.home__search .search__input {
+  height: 6rem;
+}
+.home__search > div {
+  padding-top: 11rem;
+}
+.how-does-it-work {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.how-does-it-work__menu-item {
+  margin-bottom: 15px;
+}
+.how-does-it-work__slide {
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+}
+.how-does-it-work__slide-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0 15px;
+  height: 100%;
+}
+.how-does-it-work__slide-photo {
+  height: 320px;
+}
+.how-does-it-work__slide-text {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.how-does-it-work__slide-navigation {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.how-does-it-work__slide-navigation:hover svg {
+  -webkit-transition: 0.5s fill;
+  transition: 0.5s fill;
+  fill: #e1323d;
+}
+.how-does-it-work__slide-navigation svg {
+  width: 45px;
+  height: 45px;
+  fill: #ff777f;
+}
+.how-does-it-work__slide-navigation--next svg {
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+@media screen and (max-width: 480px) {
+  .how-does-it-work__slide-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .how-does-it-work__slide-photo {
+    display: block;
+  }
+  .how-does-it-work__slide-text {
+    height: auto;
+    display: block;
+  }
+  .home__cta-button {
+    width: 145px;
+  }
+  .home__cta-button--iOS {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .home__heading {
+    margin-bottom: 2.5rem;
+  }
+  .home__mobile-cta {
+    height: 50rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .home__products {
+    height: 40rem;
+    overflow: hidden;
+  }
+  .home__products > div {
+    margin-top: 4.5rem;
+  }
+  .home__how-it-works {
+    height: auto;
+  }
+  .home__how-it-works .how-does-it-work {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .home__search {
+    margin-top: 0;
+  }
+  .home__search > div {
+    padding-top: 14.5rem;
+  }
+}
